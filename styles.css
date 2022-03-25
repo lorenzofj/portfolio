@@ -248,6 +248,11 @@ body{
     margin: 0.4em 0;
 }
 
+.link{
+    color:darkorange;
+    text-decoration: none;
+}
+
 /*--------------PROJECTS--------------*/
 .projects{
     width: 100%;
@@ -271,7 +276,7 @@ body{
     position: relative;
 }
 .projects .container a::before{
-    content: '\f0a9';
+    content: 'check me!';
     position: absolute;
     top: 0;
     left: 0;
@@ -312,9 +317,10 @@ body{
     font-size: 3em;
     margin-bottom: 0.5em;
     position: relative;
+    text-align: center;
 }
 
-.contact .box_wrap .heading::before{
+/*.contact .box_wrap .heading::before{
     content: '';
     position: absolute;
     bottom: 8px;
@@ -323,7 +329,7 @@ body{
     height: 8px;
     background: var(--main-color);
     z-index: -1;
-}
+}*/
 
 .contact .box_wrap{
     width: 35%;
